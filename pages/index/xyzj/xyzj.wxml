@@ -1,0 +1,106 @@
+<!-- 搜索栏 -->
+<movable-area>
+  <view class='top_input'>
+    <image src='/images/search.png' style='width:35rpx;height:35rpx;margin-left:150rpx;margin-top:10rpx'></image>
+    <input class='input' focus="{{focus}}" placeholder='输入你关注的话题或人'></input>
+  </view>
+
+  <!-- 用户基础信息 -->
+  <view class='base'>
+
+    <view class='base_user'>
+      <view class='base_user_text'>已关注</view>
+      <image class='base_user_img' mode='aspectFit' src='https://img2.woyaogexing.com/2019/07/27/aee148b0c3b8499e9a842926f7222b32!400x400.jpeg'></image>
+      <image src='/images/news1.png' style='width:65rpx;height:65rpx;margin-left:20rpx'></image>
+    </view>
+
+    <view class='base_guanzhu'>
+      <view class='base_guanzhu_img1'>
+        <image class='base_guanzhu_img' src='https://img2.woyaogexing.com/2019/07/27/b0f47f307e214e6abb811b2d44f9189c!400x400.jpeg'></image>
+        <text style='margin-top:20rpx;margin-left:45rpx'>李现</text>
+      </view>
+      <view class='base_guanzhu_img1'>
+        <image class='base_guanzhu_img' src='https://img2.woyaogexing.com/2019/07/30/53b8254922a44e878e1de735738b64b9!400x400.jpeg'></image>
+        <text style='margin-top:20rpx;margin-left:45rpx'>清子</text>
+      </view>
+      <view class='base_guanzhu_img1'>
+        <image class='base_guanzhu_img' src='https://img2.woyaogexing.com/2019/07/30/830e78843a294399a5e5c52132239928!400x400.jpeg'></image>
+        <text style='margin-top:20rpx;margin-left:45rpx'>薇薇</text>
+      </view>
+      <view class='base_guanzhu_img1'>
+        <image class='base_guanzhu_img' src='https://img2.woyaogexing.com/2019/07/26/27a4c6268b6e4da0a4fc320b577268a3!400x400.jpeg'></image>
+        <text style='margin-top:20rpx;margin-left:45rpx'>轩逸</text>
+      </view>
+      <view class='base_guanzhu_img1'>
+        <image class='base_guanzhu_img' src='https://img2.woyaogexing.com/2019/07/26/96f045ff23dc4d20a4f4e5845942ec14!400x400.jpeg'></image>
+        <text style='margin-top:20rpx;margin-left:45rpx'>黑脸</text>
+      </view>
+    </view>
+
+  </view>
+
+  <!-- 帖子详情 -->
+  <view class='box'>
+    <view class='box_top'>
+      <image class='box_top_user_img' src='https://img2.woyaogexing.com/2019/07/25/22dc20624b5a4b01ae0d6e1783cf8592!400x400.jpeg'></image>
+      <view class='box_top_user_name'>
+        <text class='box_top_user_names'>天天</text>
+        <text class='box_top_user_name_time'>3 mins ago</text>
+      </view>
+      <image src='/images/share.png' style='width:60rpx;height:60rpx;margin-left:360rpx;margin-top:60rpx'></image>
+    </view>
+    <view class='box_middle'></view>
+    <view class='box_bottom_icon'>
+      <image src='/images/dz.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:60rpx'></image>
+      <text style='margin-left:30rpx'>23,501</text>
+      <image src='/images/xx.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:70rpx'></image>
+      <image src='/images/sc.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:280rpx'></image>
+    </view>
+    <view class='box_bottom'></view>
+  </view>
+  <view class='box'>
+    <view class='box_top'>
+      <image class='box_top_user_img' src='https://img2.woyaogexing.com/2019/07/30/bac4b9874d924a5dbb27e65b51dfd676!400x400.jpeg'></image>
+      <view class='box_top_user_name'>
+        <text class='box_top_user_names'>爱酱夫妇</text>
+        <text class='box_top_user_name_time'>15 mins ago</text>
+      </view>
+      <image src='/images/share.png' style='width:60rpx;height:60rpx;margin-left:325rpx;margin-top:60rpx'></image>
+    </view>
+    <view class='box_middle'></view>
+    <view class='box_bottom_icon'>
+      <image src='/images/dz.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:60rpx'></image>
+      <text style='margin-left:30rpx'>34,161</text>
+      <image src='/images/xx.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:70rpx'></image>
+      <image src='/images/sc.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:280rpx'></image>
+    </view>
+    <view class='box_bottom'></view>
+  </view>
+  <view class='box'>
+    <view class='box_top'>
+      <image class='box_top_user_img' src='https://img2.woyaogexing.com/2019/07/30/56787a02881a4793a59a820a3493e9b8!400x400.jpeg'></image>
+      <view class='box_top_user_name'>
+        <text class='box_top_user_names'>晴天</text>
+        <text class='box_top_user_name_time'>26 mins ago</text>
+      </view>
+      <image src='/images/share.png' style='width:60rpx;height:60rpx;margin-left:340rpx;margin-top:60rpx'></image>
+    </view>
+    <view class='box_middle'></view>
+    <view class='box_bottom_icon'>
+      <image src='/images/dz.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:60rpx'></image>
+      <text style='margin-left:30rpx'>36,359</text>
+      <image src='/images/xx.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:70rpx'></image>
+      <image src='/images/sc.png' style='width:50rpx;height:50rpx;margin-top:30rpx;margin-left:280rpx'></image>
+    </view>
+    <view class='box_bottom'></view>
+  </view>
+
+  <!-- 换一批 -->
+  <view class='reflash'>
+    <image src='/images/reflash.png' style='width:60rpx;height:60rpx;margin-left:50rpx'></image>
+    <text class='reflash_text'>不喜欢，换一批</text>
+  </view>
+
+  <!-- 浮动按钮 -->
+  <movable-view direction="all" out-of-bounds bindtap='open_details'>KEY</movable-view>
+</movable-area>

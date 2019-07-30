@@ -1,0 +1,111 @@
+.function{
+  position: relative;
+  top: 30rpx;
+  margin: 0%;
+}
+.function_txt{
+  position: relative;
+  top: 18rpx;
+  left: 38rpx;
+  color: #98dbd4;
+  font-size: 45rpx;
+}
+.function_txt.on {
+  color: #89CAD1;
+  border-bottom: 5rpx solid #98dbd4;
+}
+.goods_details{
+  position: relative;
+  width: 200rpx;
+  height: 60rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  margin-left: 38rpx;
+  font-size: 40rpx;
+  color: #343434;
+  border: 2rpx solid #E8E9E9;
+  border-radius: 5rpx;
+  box-shadow: 4rpx 4rpx 4rpx rgb(104, 104, 104);
+}
+.company{
+  position: relative;
+  width: 90%;
+  height: 350rpx;
+  border: 2rpx solid #E8E9E9;
+  left: 5%;
+  top: 30rpx;
+  border-radius: 10rpx;
+  box-shadow: 4rpx 4rpx 4rpx rgb(104, 104, 104);
+}
+.company_msg{
+  color: #131313;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+}
+.factory{
+  position: relative;
+  margin-top: 8rpx;
+  margin-left: 20rpx;
+  color: #5A5A5A;
+}
+.stock{
+  position: relative;
+  width: 100%;
+  height: 350rpx;
+  border: 2rpx solid #E8E9E9;
+  margin-top: 50rpx;
+  border-radius: 10rpx;
+  box-shadow: 4rpx 4rpx 4rpx rgb(104, 104, 104);
+  display: flex;
+  flex-direction: row;
+}
+.goods{
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+}
+.model{
+  width: 90%;
+  position: relative;
+  height: 60rpx;
+  margin-left: 5%;
+  border: 2rpx #89CAD1 solid;
+  border-radius: 10rpx;
+  margin-top: 35rpx;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 4rpx 4rpx 4rpx rgb(104, 104, 104);
+}
+.yuanliao{
+  width: 90%;
+  height: 350rpx;
+  left: 5%;
+  border: 2rpx solid #E8E9E9;
+  box-shadow: 4rpx 4rpx 4rpx rgb(104, 104, 104);
+  position: relative;
+  margin-top: 30rpx;
+}
+.title{
+  color: #3A3A3A;
+  font-size: 40rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.step1{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 25rpx;
+  margin-left:15rpx;
+}
+.step2{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 25rpx;
+  margin-left:15rpx;
+}
+.details{
+  position: relative;
+  margin-left: 70rpx;
+}

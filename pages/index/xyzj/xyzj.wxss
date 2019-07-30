@@ -1,0 +1,140 @@
+/* 搜索栏 */
+.top_input{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 20rpx;
+  width: 90%;
+  left: 5%;
+}
+.input{
+  text-align: center;
+  height: 50rpx;
+}
+
+/* 用户基础信息 */
+.base{
+  width: 100%;
+  height: 280rpx;
+  position: relative;
+  top: 30rpx;
+  border-top: 2rpx solid #F0F0F1;
+  border-bottom: 2rpx solid #F0F0F1;
+}
+.base_user{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-left: 60rpx;
+}
+.base_user_text{
+  font-size: 45rpx;
+  color: #4A474C
+}
+.base_user_img{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 340rpx;
+}
+.base_guanzhu{
+  display: flex;
+  flex-direction: row;
+}
+.base_guanzhu_img1{
+  width: 120rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+}
+.base_guanzhu_img{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+}
+
+/* 帖子详情 */
+.box_top{
+  display: flex;
+  flex-direction: row;
+}
+.box_top_user_img{
+width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 60rpx;
+  margin-top: 50rpx;
+}
+.box_top_user_name{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+}
+.box_top_user_names{
+  font-size: 40rpx;
+  color: #4A474C;
+}
+.box_top_user_name_time{
+  font-size: 25rpx;
+  color: #AFAFB1;
+}
+.box_middle{
+  width:90%;
+  height: 250rpx;
+  margin-left: 5%;
+  margin-top:15rpx;
+  border: 2rpx #AFAFB1 solid;
+  border-radius: 20rpx;
+  box-shadow: 4rpx 4rpx 4rpx #4A474C;
+}
+.box_bottom_icon{
+width: 100%;
+height: 80rpx;
+border-top: 2rpx #AFAFB1 solid;
+margin-top: 30rpx;
+}
+
+/* 换一批 */
+.reflash{
+  width: 50%;
+  left: 25%;
+  position: relative;
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+.reflash_text{
+  font-size: 30rpx;
+  color: #AFAFB1;
+  margin-top:10rpx;
+  margin-left: 10rpx;
+}
+
+/* 浮动按钮 */
+movable-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  width: 100rpx;
+  background: #82C6C7;
+  color: #fff;
+  border-radius: 50%;
+  opacity: 0.65;
+}
+movable-area {
+  height: 2100rpx;
+  width: 100%;
+  overflow: hidden;
+}

@@ -1,0 +1,101 @@
+<scroll-view scroll-y="{{true}}" class="scroll">
+
+  <!-- 头部组件 -->
+  <view class='top'>
+    <view class='top_top'>
+      <navigator class='top_scan' open-type='navigate' url='./scan/scan'>
+        <image src='../../images/scan.png' style='width:60rpx;height:60rpx'></image>
+      </navigator>
+      <input class='top_input' focus="{{focus}}" placeholder='请输入商品名称或编码'></input>
+      <navigator class='top_news' hover-class='navigator hover'>
+        <image src='../../images/news.png' style='width:60rpx;height:55rpx'></image>
+      </navigator>
+    </view>
+    <view class='top_middle'>
+      <image class='middle_locate' src='../../images/locate.png' style='width:30rpx;height:45rpx'></image>
+      <text class='middle_locate_text'>{{city}}</text>
+      <text class='middle_locate_text2'>防晒指数</text>
+      <image class='middle_empty' src='../../images/empty_heart.png' wx:for="{{length}}" wx:key="{{index}}" style='width:30rpx;height:30rpx'></image>
+    </view>
+    <view class='top_bottom'>
+      <image class='bottom_weather' src='../../images/weather.png' style='width:45rpx;height:35rpx'></image>
+      <text class='bottom_weather_text'>{{weather}}</text>
+      <text class='bottom_weather_text2'>保湿指数</text>
+      <image class='bottom_full' src='../../images/full_heart.png' wx:for="{{length}}" wx:key="{{index}}" style='width:30rpx;height:30rpx'></image>
+    </view>
+  </view>
+
+  <!-- 轮播图 -->
+  <swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}' circular="{{circular}}" indicator-color='#B2B2B2' indicator-active-color='#5A5A5A'>
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image class="slide_image" src="{{item}}" style='width=90%;height:280rpx' mode='aspectFit'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <!-- 小因头条 -->
+  <view class='pics'>
+    <image class='pic1' src='../../images/pic.png' style='width:90%;height:15rpx'></image>
+    <text class='xiaoyintoutiao'>{{news}}</text>
+    <image class='pic2' src='../../images/pic.png' style='width:90%;height:15rpx'></image>
+  </view>
+
+  <!-- 四大功能模块 -->
+  <view class='function'>
+    <view class='f_top'>
+      <view class='f_top_left'>
+        <navigator class='button' url='./fzcs/fzcs' open-type='navigate'>
+          <view class='f_top_left_top'>
+            <image class='ftest' src='../../images/ftest.png' style='width:60rpx;height:60rpx;margin-top:15rpx;margin-left:15rpx'></image>
+            <text class='fzcs'>肤质测试</text>
+          </view>
+          <view class='f_top_left_bottom'>
+            <text class='qd'>期待你的蜕变</text>
+          </view>
+        </navigator>
+      </view>
+      <view class='f_top_right'>
+        <navigator class='button' url='./bbxq/bbxq' open-type='navigate'>
+          <view class='f_top_right_top'>
+            <image class='zinterview' src='../../images/shangpin.png' style='width:60rpx;height:60rpx;margin-top:15rpx;margin-left:15rpx'></image>
+            <text class='bbxq'>宝贝详情</text>
+          </view>
+          <view class='f_top_right_bottom'>
+            <text class='zd'>享受爱的滋养</text>
+          </view>
+        </navigator>
+      </view>
+    </view>
+    <view class='f_bottom'>
+      <view class='f_bottom_left'>
+        <navigator class='button' url='./xyzj/xyzj' open-type='navigate'>
+          <view class='f_bottom_left_top'>
+            <image class='whexpose' src='../../images/xiaoyin.png' style='width:60rpx;height:60rpx;margin-top:15rpx;margin-left:15rpx'></image>
+            <text class='xyzj'>小因之家</text>
+          </view>
+          <view class='f_bottom_left_bottom'>
+            <text class='yl'>原来这是我的家</text>
+          </view>
+        </navigator>
+      </view>
+      <view class='f_bottom_right'>
+        <navigator class='button' url='./ndbd/ndbd' open-type='navigate'>
+          <view class='f_bottom_right_top'>
+            <image class='year_rank' src='../../images/year_rank.png' style='width:60rpx;height:60rpx;margin-top:15rpx;margin-left:15rpx'></image>
+            <text class='ndbd'>年度榜单</text>
+          </view>
+          <view class='f_bottom_right_bottom'>
+            <text class='zc'>这才是真的精华</text>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+  <!-- 年度点评  -->
+  <view class='pic3'>
+    <image src='../../images/pic.png' style='width:90%;height:15rpx;margin-left:5%'></image>
+  </view>
+  <text class='nddp'>年度点评</text>
+</scroll-view>

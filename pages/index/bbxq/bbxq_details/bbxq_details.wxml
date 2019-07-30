@@ -1,0 +1,78 @@
+<!-- 商品两大属性选择 -->
+<scroll-view class='function' scroll-x="true" style='width:100%;white-space:nowrap;display：flex'>
+  <text style='width:50%;height:100rpx;display:inline-block' class="function_txt {{curIndex === 0 ?'on':''}}" bindtap="bindTap" data-index="0"> 商品基础信息</text>
+  <text style='width:50;height:100rpx;display:inline-block' class="function_txt {{curIndex === 1 ?'on':''}}" bindtap="bindTap" data-index="1"> 商品加工流程</text>
+</scroll-view>
+
+<!-- 属性界面展示内容 -->
+<view class='goods_details'>宝贝商品</view>
+
+<view class='company' wx:if="{{curIndex === 0}}">
+  <view class='company_msg'>产品来源公司:</view>
+  <view class='factory'>公司名称：{{factory.name}}</view>
+  <view class='factory'>公司备案ID：{{factory.ID}}</view>
+  <view class='factory'>公司类型：{{factory.type}}</view>
+  <view class='factory'>公司法人代表：{{factory.leader_person}}</view>
+  <view class='stock' style='top:50rpx'>
+    <image class='goods' src='http://www.5588.tv/Img/Img2011/2016-6-15/201691417370426.jpg' style='width:200rpx;height:200rpx'></image>
+    <button style='height:100rpx;margin-top:110rpx;' bindtap='goStock'>产品成分</button>
+  </view>
+</view>
+
+<view wx:if="{{curIndex === 1}}">
+  <view class='yuanliao'>
+    <view class='title'>原料阶段</view>
+    <view class='step1'>
+      <image src='{{src}}' style='width:35rpx;height:35rpx;margin-left:25rpx;margin-top:5rpx'></image>
+      <text style='margin-left:6rpx'>18/05/23</text>
+      <text class='details'>大庆公司收购原料</text>
+    </view>
+    <view class='step2'>
+      <image src='{{src}}' style='width:35rpx;height:35rpx;margin-left:25rpx;margin-top:5rpx'></image>
+      <text style='margin-left:6rpx'>18/05/23</text>
+      <text class='details'>大庆公司收购原料</text>
+    </view>
+  </view>
+
+  <view class='yuanliao'>
+    <view class='title'>加工阶段</view>
+    <view class='step1'>
+      <image src='{{src}}' style='width:35rpx;height:35rpx;margin-left:25rpx;margin-top:5rpx'></image>
+      <text style='margin-left:6rpx'>18/07/13</text>
+      <text class='details'>美军公司加工原料</text>
+    </view>
+    <view class='step2'>
+      <image src='{{src}}' style='width:35rpx;height:35rpx;margin-left:25rpx;margin-top:5rpx'></image>
+      <text style='margin-left:6rpx'>18/07/13</text>
+      <text class='details'>美军公司加工原料</text>
+    </view>
+  </view>
+
+  <view class='yuanliao'>
+    <view class='title'>罐装阶段</view>
+    <view class='step1'>
+      <image src='{{src}}' style='width:35rpx;height:35rpx;margin-left:25rpx;margin-top:5rpx'></image>
+      <text style='margin-left:6rpx'>18/11/04</text>
+      <text class='details'>天乡公司罐装产品</text>
+    </view>
+    <view class='step2'>
+      <image src='{{src}}' style='width:35rpx;height:35rpx;margin-left:25rpx;margin-top:5rpx'></image>
+      <text style='margin-left:6rpx'>18/11/04</text>
+      <text class='details'>天乡公司罐装产品</text>
+    </view>
+  </view>
+
+  <view class='yuanliao'>
+    <view class='title'>物流阶段</view>
+    <view class='step1'>
+      <image src='{{src}}' style='width:35rpx;height:35rpx;margin-left:25rpx;margin-top:5rpx'></image>
+      <text style='margin-left:6rpx'>19/02/14</text>
+      <text class='details'>天猫公司安排物流发货</text>
+    </view>
+    <view class='step2'>
+      <image src='{{src}}' style='width:35rpx;height:35rpx;margin-left:25rpx;margin-top:5rpx'></image>
+      <text style='margin-left:6rpx'>19/02/14</text>
+      <text class='details'>天猫公司安排物流发货</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<view class='input'>
+  <input bindtap='goSKII' class='input1' style='margin-top:10rpx;' placeholder='请输入产品名或成分名' focus="{{focus}}"></input>
+  <image class='search' src='../../images/search.png' style='width:50rpx;height:50rpx'></image>
+</view>

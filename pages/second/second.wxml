@@ -1,0 +1,261 @@
+<!--pages/second/second.wxml-->
+<view class='input'>
+  <input placeholder='大家都在搜迪奥999' focus="{{focus}}"></input>
+</view>
+<view class='box'>
+  <view class='box1' bindtap='fzcs'>
+    <text class='text1'>我的肤质状况：状况很好，细腻有弹性</text>
+  </view>
+  <view class='box2'>
+    <text class='text1'>肤质：轻度敏感，光滑度如剥壳鸡蛋</text>
+  </view>
+  <view class='box3'>
+    <text class='text1'>问题：有轻微结构性黑眼圈</text>
+  </view>
+</view>
+<scroll-view class='function' scroll-x="true" style='width:100%;white-space:nowrap;display：flex'>
+  <view style='width:140rpx;height:80rpx;display:inline-block;background-color:#EAEAEA'>
+    <text class="function_txt {{curIndex === 0 ?'on':''}}" bindtap="bindTap" data-index="0"> 推荐</text>
+  </view>
+  <view style='width:140rpx;height:80rpx;display:inline-block;background-color:#EAEAEA'>
+    <text class="function_txt {{curIndex === 1 ?'on':''}}" bindtap="bindTap" data-index="1"> 防晒</text>
+  </view>
+  <view style='width:140rpx;height:80rpx;display:inline-block;background-color:#EAEAEA'>
+    <text class="function_txt  {{curIndex === 2 ?'on':''}}" bindtap="bindTap" data-index="2"> 补水</text>
+  </view>
+  <view style='width:140rpx;height:80rpx;display:inline-block;background-color:#EAEAEA'>
+    <text class="function_txt  {{curIndex === 3 ?'on':''}}" bindtap="bindTap" data-index="3"> 美白</text>
+  </view>
+  <view style='width:140rpx;height:80rpx;display:inline-block;background-color:#EAEAEA'>
+    <text class="function_txt  {{curIndex === 4 ?'on':''}}" bindtap="bindTap" data-index="4"> 去皱</text>
+  </view>
+  <view style='width:140rpx;height:80rpx;display:inline-block;background-color:#EAEAEA'>
+    <text class="function_txt  {{curIndex === 5 ?'on':''}}" bindtap="bindTap" data-index="5"> 祛痘</text>
+  </view>
+  <view style='width:140rpx;height:80rpx;display:inline-block;background-color:#EAEAEA'>
+    <text class="function_txt  {{curIndex === 6 ?'on':''}}" bindtap="bindTap" data-index="6"> 抗敏感</text>
+  </view>
+  <view style='width:140rpx;height:80rpx;display:inline-block;background-color:#EAEAEA'>
+    <text class="function_txt  {{curIndex === 7 ?'on':''}}" bindtap="bindTap" data-index="7"> 祛斑</text>
+  </view>
+</scroll-view>
+<!-- <view class="function-content"> -->
+<view wx:if="{{curIndex === 0}}">
+  <view class='goods'>
+    <view class='goods_top'>
+      <view class='goods_top_left'>
+        <navigator open-type='navigate' url='./spxq/spxq'>
+          <image src='../../images/8.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>官方正品AHC</view>
+          <view class='goods_text2'>收藏人数：2365</view>
+        </navigator>
+      </view>
+      <view class='goods_top_right'>
+        <navigator open-type='navigate' url='./spxq/spxq'>
+          <image src='../../images/5.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>补水保湿HFP</view>
+          <view class='goods_text2'>收藏人数：46w+</view>
+        </navigator>
+      </view>
+    </view>
+    <view class='goods_bottom'>
+      <view class='goods_bottom_left'>
+        <navigator style='display: flex; flex-direction: column;' open-type='navigate' url='./spxq/spxq'>
+          <image src='../../images/7.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>美白养颜AHC</view>
+          <view class='goods_text2'>收藏人数：50w+</view>
+        </navigator>
+      </view>
+      <view class='goods_bottom_right '>
+        <navigator open-type='navigate ' url='./spxq/spxq '>
+          <image src='../../images/6.jpg ' style='width:250rpx;height:280rpx '></image>
+          <view class='goods_text'>抗敏修复薇诺娜</view>
+          <view class='goods_text2'>收藏人数：3.5w+人</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{curIndex === 1}}">
+  <view class='goods'>
+    <view class='goods_top'>
+      <view class='goods_top_left'>
+        <navigator open-type='navigate' url='./spxqfangshai/spxqfangshai'>
+          <image src='https://img.alicdn.com/imgextra/i1/2200633491827/O1CN012p90eN1PMo91vONr0_!!2200633491827-0-scmitem6000.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>水感清透ISDIN</view>
+          <view class='goods_text2'>收藏人数：50w+</view>
+        </navigator>
+      </view>
+      <view class='goods_top_right'>
+        <navigator open-type='navigate' url='./spxqfangshai/spxqfangshai'>
+          <image src='https://img.alicdn.com/imgextra/i2/2816529503/O1CN011ttntn2K4QJuulO0c_!!2816529503.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>超强防晒W_Lab</view>
+          <view class='goods_text2'>收藏人数：24w+</view>
+        </navigator>
+      </view>
+    </view>
+    <view class='goods_bottom'>
+      <view class='goods_bottom_left'>
+        <navigator style='display: flex; flex-direction: column;' open-type='navigate' url='./spxqfangshai/spxqfangshai'>
+          <image src='https://img.alicdn.com/imgextra/i1/2095455386/O1CN01xtjKta1pepj4JOJuW_!!2095455386.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>泰国网红Mistine</view>
+          <view class='goods_text2'>收藏人数：2352</view>
+        </navigator>
+      </view>
+      <view class='goods_bottom_right '>
+        <navigator open-type='navigate' url='./spxqfangshai/spxqfangshai'>
+          <image src='https://img.alicdn.com/imgextra/i1/2867500223/O1CN01Si4qXT1DWArDBAy5y_!!2867500223.jpg' style='width:250rpx;height:280rpx '></image>
+          <view class='goods_text'>日本清爽Biore</view>
+          <view class='goods_text2'>收藏人数：9.5w+</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{curIndex === 2}}">
+  <view class='goods'>
+    <view class='goods_top'>
+      <view class='goods_top_left'>
+        <navigator open-type='navigate' url='./spxqbushui/spxqbushui'>
+          <image src='https://gd1.alicdn.com/imgextra/i4/86569995/O1CN012VCzbp2NhlAgJLYJe_!!86569995.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>强效补水水密码</view>
+          <view class='goods_text2'>收藏人数：160w+</view>
+        </navigator>
+      </view>
+      <view class='goods_top_right'>
+        <navigator open-type='navigate' url='./spxqbushui/spxqbushui'>
+          <image src='https://img.alicdn.com/imgextra/i3/2360209412/TB2K8vBG1SSBuNjy0FlXXbBpVXa-2360209412.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>大粉瓶Lancome</view>
+          <view class='goods_text2'>收藏人数：1080w+</view>
+        </navigator>
+      </view>
+    </view>
+    <view class='goods_bottom'>
+      <view class='goods_bottom_left'>
+        <navigator style='display: flex; flex-direction: column;' open-type='navigate' url='./spxqbushui/spxqbushui'>
+          <image src='https://img.alicdn.com/imgextra/i3/2200806137015/O1CN01gFo5uc21guwQuFEhM_!!2200806137015.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>韩国韩后Whoo</view>
+          <view class='goods_text2'>收藏人数：5.9w+</view>
+        </navigator>
+      </view>
+      <view class='goods_bottom_right '>
+        <navigator open-type='navigate' url='./spxqbushui/spxqbushui'>
+          <image src='https://img.alicdn.com/imgextra/i2/1776823701/O1CN011dD6IuVcOBsewtL_!!1776823701.jpg' style='width:250rpx;height:280rpx '></image>
+          <view class='goods_text'>学生平价八杯水</view>
+          <view class='goods_text2'>收藏人数：5.3w+</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{curIndex === 3}}">
+  <view class='goods'>
+    <view class='goods_top'>
+      <view class='goods_top_left'>
+        <navigator open-type='navigate' url='./spxqmeibai/spxqmeibai'>
+          <image src='https://img.alicdn.com/imgextra/i1/917264765/TB27M8if63z9KJjy0FmXXXiwXXa_!!917264765.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>神仙水SK-II</view>
+          <view class='goods_text2'>收藏人数：1960w+</view>
+        </navigator>
+      </view>
+      <view class='goods_top_right'>
+        <navigator open-type='navigate' url='./spxqmeibai/spxqmeibai'>
+          <image src='https://img.alicdn.com/imgextra/i2/2155902607/O1CN011V82zcNE7FmranT_!!2155902607.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>美白养颜AHC</view>
+          <view class='goods_text2'>收藏人数：50w+</view>
+        </navigator>
+      </view>
+    </view>
+    <view class='goods_bottom'>
+      <view class='goods_bottom_left'>
+        <navigator style='display: flex; flex-direction: column;' open-type='navigate' url='./spxqmeibai/spxqmeibai'>
+          <image src='https://img.alicdn.com/imgextra/i3/2468809135/O1CN01digLtQ2HLsbWTsu22_!!2468809135.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>纯天然欧缇丽</view>
+          <view class='goods_text2'>收藏人数：493.5w+</view>
+        </navigator>
+      </view>
+      <view class='goods_bottom_right '>
+        <navigator open-type='navigate' url='./spxqmeibai/spxqmeibai'>
+          <image src='https://img.alicdn.com/imgextra/i1/668693/O1CN01hpzNJS2E5RVyTQcv1_!!668693.jpg' style='width:250rpx;height:280rpx '></image>
+          <view class='goods_text'>日本殿堂级资生堂</view>
+          <view class='goods_text2'>收藏人数：2353w+</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{curIndex === 4}}">
+  <view class='goods'>
+    <view class='goods_top'>
+      <view class='goods_top_left'>
+        <navigator open-type='navigate' url='./spxqquzhou/spxqquzhou'>
+          <image src='https://img.alicdn.com/imgextra/i3/2424298091/O1CN013NIEPw29dj6xmTSxo_!!2424298091.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>海蓝之谜面霜</view>
+          <view class='goods_text2'>收藏人数：1960w+</view>
+        </navigator>
+      </view>
+      <view class='goods_top_right'>
+        <navigator open-type='navigate' url='./spxqquzhou/spxqquzhou'>
+          <image src='https://img.alicdn.com/imgextra/i1/2770582510/O1CN018Ucz3h1UPcciDhqBa_!!2770582510.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>欧莱雅大红瓶</view>
+          <view class='goods_text2'>收藏人数：2650w+</view>
+        </navigator>
+      </view>
+    </view>
+    <view class='goods_bottom'>
+      <view class='goods_bottom_left'>
+        <navigator style='display: flex; flex-direction: column;' open-type='navigate' url='./spxqquzhou/spxqquzhou'>
+          <image src='https://img.alicdn.com/imgextra/i2/2155902607/TB2WhkNGkOWBuNjSsppXXXPgpXa_!!2155902607.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>官方正品AHC</view>
+          <view class='goods_text2'>收藏人数：2365+</view>
+        </navigator>
+      </view>
+      <view class='goods_bottom_right '>
+        <navigator open-type='navigate' url='./spxqquzhou/spxqquzhou'>
+          <image src='https://img.alicdn.com/imgextra/i2/2258996751/O1CN011zk0JVZ6HZTWVj0_!!2258996751.jpg' style='width:250rpx;height:280rpx '></image>
+          <view class='goods_text'>OLAY菁醇绵绒霜</view>
+          <view class='goods_text2'>收藏人数：163w+</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{curIndex === 5}}">
+  <view class='goods'>
+    <view class='goods_top'>
+      <view class='goods_top_left'>
+        <navigator open-type='navigate' url='./spxqqudou/spxqqudou'>
+          <image src='https://img.alicdn.com/imgextra/i1/2064657420/O1CN019t2S2d24gPL9gwOlZ_!!2064657420.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>日本128年产品</view>
+          <view class='goods_text2'>收藏人数：58w+</view>
+        </navigator>
+      </view>
+      <view class='goods_top_right'>
+        <navigator open-type='navigate' url='./spxqqudou/spxqqudou'>
+          <image src='https://img.alicdn.com/imgextra/i1/1696174272/O1CN01ZWyXPn1hQcUHRUwjS_!!1696174272.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>修复平缓芦荟胶</view>
+          <view class='goods_text2'>收藏人数：100w+</view>
+        </navigator>
+      </view>
+    </view>
+    <view class='goods_bottom'>
+      <view class='goods_bottom_left'>
+        <navigator style='display: flex; flex-direction: column;' open-type='navigate' url='./spxqqudou/spxqqudou'>
+          <image src='https://img.alicdn.com/imgextra/i3/2957642769/O1CN01htHGMO1WKFEzk8Hv6_!!2957642769-0-scmitem6000.jpg' style='width:250rpx;height:280rpx'></image>
+          <view class='goods_text'>简单纯粹HFP</view>
+          <view class='goods_text2'>收藏人数：235w+</view>
+        </navigator>
+      </view>
+      <view class='goods_bottom_right '>
+        <navigator open-type='navigate' url='./spxqqudou/spxqqudou'>
+          <image src='https://img.alicdn.com/imgextra/i1/3841884571/O1CN01uxDwZR1jdYxRDlret_!!3841884571.jpg' style='width:250rpx;height:280rpx '></image>
+          <view class='goods_text'>法国原生品牌</view>
+          <view class='goods_text2'>收藏人数：63w+</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{curIndex === 6}}">{{goods.service}}</view>
+<view wx:if="{{curIndex === 7}}">{{goods.service}}</view>
+<!-- </view> -->

@@ -1,0 +1,15 @@
+<camera class='takePhoto' mode="normal" device-position="back" flash="on" binderror="error" style="width: 80%; height: 300px;"></camera>
+<view class='text' bindtap="takePhoto">
+  <text class='wenzi' style='margin-top:20rpx;left:155rpx'>拍照</text>
+</view>
+<view class='text' bindtap="choosePhoto">
+  <text class='wenzi' style='margin-top:20rpx;left:60rpx'>从相册中选取照片</text>
+</view>
+
+<!-- 获取测肤报告 -->
+<navigator url='./report/report' class='fz_style' bindtap="getReport">
+  <text class='fz_report' style='margin-top:20rpx;left:60rpx'>肤质报告</text>
+</navigator>
+
+<view class='yulan'>预览</view>
+<image class='yulan_image' mode="widthToFill" src="{{src}}"></image>

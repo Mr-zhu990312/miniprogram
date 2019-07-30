@@ -1,0 +1,327 @@
+.top {
+  width: 100%;
+  height: 250rpx;
+  background-color: #82c6c7;
+  display: flex;
+  flex-direction: column;
+}
+
+.top_top {
+  margin-top: 30rpx;
+  height: 60rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.top_scan {
+  width: 80rpx;
+  height: 60rpx;
+  margin-left: 10rpx;
+}
+
+.top_input {
+  width: 560rpx;
+  height: 60rpx;
+  border: 2rpx solid #e8e9e9;
+  border-radius: 30rpx;
+  text-align: center;
+}
+
+.top_news {
+  position: relative;
+  left: 20rpx;
+}
+
+.top_middle {
+  margin-top: 15rpx;
+  height: 50rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.middle_locate {
+  position: relative;
+  left: 95rpx;
+  top: 20rpx;
+}
+
+.middle_locate_text {
+  position: relative;
+  top: 20rpx;
+  left: 125rpx;
+  color: #cde8e9;
+}
+
+.middle_locate_text2 {
+  position: relative;
+  left: 250rpx;
+  top: 20rpx;
+  color: #cde8e9;
+}
+
+.middle_empty {
+  position: relative;
+  left: 280rpx;
+  top: 30rpx;
+}
+
+.top_bottom {
+  margin-top: 15rpx;
+  height: 50rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom_weather {
+  position: relative;
+  left: 90rpx;
+  top: 25rpx;
+}
+
+.bottom_weather_text {
+  position: relative;
+  top: 20rpx;
+  left: 115rpx;
+  color: #cde8e9;
+}
+
+.bottom_weather_text2 {
+  position: relative;
+  left: 180rpx;
+  top: 20rpx;
+  color: #cde8e9;
+}
+
+.bottom_full {
+  position: relative;
+  left: 210rpx;
+  top: 30rpx;
+}
+
+.slide_image {
+  position: relative;
+  top: 20rpx;
+  left: 60rpx;
+}
+
+.pics {
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.pic1 {
+  position: relative;
+  top: 30rpx;
+  left: 5%;
+}
+
+.xiaoyintoutiao {
+  position: relative;
+  top: 38rpx;
+  left: 50rpx;
+  color: #6a6c6c;
+}
+
+.pic2 {
+  position: relative;
+  top: 50rpx;
+  left: 5%;
+}
+
+.function {
+  width: 100%;
+  height: 345rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.f_top {
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.f_bottom {
+  position: relative;
+  top: 20rpx;
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.f_top_left {
+  position: relative;
+  width: 34%;
+  left: 70rpx;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 2rpx #e8e9e9 solid;
+  box-shadow: 6px 6px #e8e9e9;
+}
+
+.f_top_right {
+  position: relative;
+  left: 170rpx;
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  border: 2rpx #e8e9e9 solid;
+  box-shadow: 6px 6px #e8e9e9;
+}
+
+.f_bottom_left {
+  position: relative;
+  width: 34%;
+  left: 70rpx;
+  display: flex;
+  flex-direction: column;
+  border: 2rpx #e8e9e9 solid;
+  box-shadow: 6px 6px #e8e9e9;
+}
+
+.f_bottom_right {
+  position: relative;
+  width: 34%;
+  left: 170rpx;
+  display: flex;
+  flex-direction: column;
+  border: 2rpx #e8e9e9 solid;
+  box-shadow: 6px 6px #e8e9e9;
+}
+
+.f_top_left_top {
+  height: 75rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.f_top_right_top {
+  height: 75rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.f_bottom_left_top {
+  height: 75rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.f_bottom_right_top {
+  height: 75rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.fzcs {
+  position: relative;
+  top: 15rpx;
+  left: 15rpx;
+  font-size: 38rpx;
+  color: #82c6c7;
+}
+
+.qd {
+  position: relative;
+  top: 15rpx;
+  left: 40rpx;
+  font-size: 30rpx;
+  color: #cee0e0;
+}
+
+.xyzj {
+  position: relative;
+  top: 15rpx;
+  left: 15rpx;
+  font-size: 38rpx;
+  color: #82c6c7;
+}
+
+.yl {
+  position: relative;
+  top: 15rpx;
+  left: 30rpx;
+  font-size: 30rpx;
+  color: #cee0e0;
+}
+
+.bbxq {
+  position: relative;
+  top: 15rpx;
+  left: 15rpx;
+  font-size: 38rpx;
+  color: #82c6c7;
+}
+
+.zd {
+  position: relative;
+  top: 15rpx;
+  left: 40rpx;
+  font-size: 30rpx;
+  color: #cee0e0;
+}
+
+.ndbd {
+  position: relative;
+  top: 15rpx;
+  left: 15rpx;
+  font-size: 38rpx;
+  color: #82c6c7;
+}
+
+.zc {
+  position: relative;
+  top: 15rpx;
+  left: 30rpx;
+  font-size: 30rpx;
+  color: #cee0e0;
+}
+
+.nddp {
+  position: relative;
+  left: 60rpx;
+  font-size: 45rpx;
+  color: #82c6c7;
+}
+
+.button {
+  width: 260rpx;
+  height: 150rpx;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.scrolltxt {
+  padding: 0 20rpx;
+  background: #f8f8f8;
+}
+
+.marquee_box {
+  position: relative;
+  color: #333;
+  height: 90rpx;
+  display: block;
+  overflow: hidden;
+}
+
+.marquee_text {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  height: 90rpx;
+  line-height: 90rpx;
+}

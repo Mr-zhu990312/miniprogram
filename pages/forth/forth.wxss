@@ -1,0 +1,15 @@
+.input{
+  width: 90%;
+  left: 5%;
+  height: 70rpx;
+  position: relative;
+  top: 250rpx;
+  border: 2rpx solid gray;
+  border-radius: 40rpx;
+  text-align: center;
+}
+.search{
+  position: absolute;
+  top: 10rpx;
+  left: 520rpx;
+}

@@ -1,0 +1,4 @@
+<camera mode="scanCode" flash="auto" device-position="back" binderror="error"></camera>
+<button class='text' type="primary" bindtap="takePhoto">扫描二维码</button>
+<view class='yulan'>预览</view>
+<image class='yulan_image' mode="widthToFill" src="{{src}}"></image>

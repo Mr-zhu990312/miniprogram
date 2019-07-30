@@ -1,0 +1,22 @@
+<view class="containor">
+  <form bindsubmit="submitClick">
+    <view class="publish_imgs_area">
+      <!-- 视频上传图片按钮 -->
+      <view class="imgs_area" bindtap="uploadVideo">
+        <view class="iamge_item">
+          <image class="iamge_content" src="/images/upload.png" mode="aspectFill" />
+        </view>
+      </view>
+      <video name="video" class="video_item" src="{{tmpVideoUrl}}" controls></video>
+    </view>
+    <view class="btn_all_area">
+      <button class="btn_area" plain='true' formType="submit" style='background:#95E2D8'>
+        <text style='color:#989393'>开始编辑</text>
+      </button>
+      <button class="btn_area" plain='true' formType="button" bindtap='deleteVideo' style='background:#026853'>
+        <text style='color:#D6D6D6'>取消</text>
+      </button>
+    </view>
+    <navigator class='home' url='./mine/mine' open-type='navigate'><image src='/images/home.png' style='width:80rpx;height:80rpx;margin-left:60rpx'></image><text class="home_txt">个人主页</text></navigator>
+  </form>
+</view>

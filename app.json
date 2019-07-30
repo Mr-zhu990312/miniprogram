@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/xyzj/xyzj",
+    "pages/index/xyzj/fabu/fabu",
+    "pages/forth/forth",
+    "pages/index/bbxq/bbxq_details/bbxq_details",
+    "pages/index/fzcs/fzcs",
+    "pages/third/third",
+    "pages/third/mine/mine",
+    "pages/third/chooseBgm/chooseBgm",
+    "pages/index/bbxq/bbxq",
+    "pages/index/detail/detail",
+    "pages/second/second",
+    "pages/my/my",
+    "pages/gouwuche/gouwuche",
+    "pages/second/spxq/spxq",
+    "pages/second/spxqbushui/spxqbushui",
+    "pages/second/spxqmeibai/spxqmeibai",
+    "pages/second/spxqquzhou/spxqquzhou",
+    "pages/second/spxqqudou/spxqqudou",
+    "pages/index/scan/scan",
+    "pages/index/ndbd/ndbd",
+    "pages/second/spxqfangshai/spxqfangshai",
+    "pages/my/guanzhu/guanzhu",
+    "pages/my/shoucang/shoucang",
+    "pages/my/fensi/fensi",
+    "pages/my/gerenziliao/gerenziliao",
+    "pages/my/tuijianfangan/tuijianfangan",
+    "pages/my/dingdanguanli/dingdanguanli",
+    "pages/my/wentifankui/wentifankui",
+    "pages/my/guanyu/guanyu",
+    "pages/third/userLogin/login",
+    "pages/third/userRegist/regist",
+    "pages/index/fzcs/report/report",
+    "pages/index/bbxq/bbxq_details/xq/xq"
+  ],
+  "tabBar": {"color": "#C9C9CD","selectedColor": "#62C8BF","backgroundColor": "#F7F7F7","borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/first.png",
+        "selectedIconPath": "images/first_select.png"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "专属定制",
+        "iconPath": "images/find.png",
+        "selectedIconPath": "images/find_select.png"
+      },
+      {
+        "pagePath": "pages/third/third",
+        "iconPath": "images/add.png",
+        "selectedIconPath": "images/add_select.png"
+      },
+      {
+        "pagePath": "pages/forth/forth",
+        "text": "成分评测",
+        "iconPath": "images/check.png",
+        "selectedIconPath": "images/check_select.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_select.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
